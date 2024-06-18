@@ -1,0 +1,30 @@
+        <!doctype html>
+        <head>
+            <title>contact page</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+        </head>
+        <body style="background-color: gold;font-family:Arial;font-size: medium;">
+        
+     
+            <h2>Welcome, <span id="username-display"></span>!</h2>
+            <form id="contact-form">
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="phone" style="font-family: Georgia; width:200px;" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" style="font-family: Georgia; width:200px;" required>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Address" style="font-family: Georgia; width:200px;"></textarea>
+                <label for="reg-number">Registration Number:</label>
+                <input type="text" id="reg-number" name="reg-number" placeholder="Enter Registration Number" style="font-family: Georgia; width:200px;">
+                <button type="submit" style="background-color: blue;color: white;">Save Details</button>
+            </form>
+            <br>
+            <h3>Search by Registration Number:</h3>
+            <form id="search-form">
+                <input type="text" id="search-reg-number" name="search-reg-number" placeholder="Enter Registration Number" style="font-family: Georgia; width:200px;">
+                <button type="submit" style="background-color: blue;color: white;">Search</button>
+                <div id="search-results"></div>
+            </form>
+      
+        </body>
+        </html>
